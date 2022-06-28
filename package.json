@@ -1,5 +1,5 @@
 {
-  "name": "micro-service-utils",
+  "name": "@africave-team/kippa-micro-service-utils",
   "version": "0.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -19,26 +19,27 @@
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache --runInBand",
-    "addscope": "node tools/packagejson name @kippa/micro-service-utils"
+    "addscope": "node tools/packagejson name @africave-team/kippa-micro-service-utils"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "files": [
     "dist"
   ],
   "keywords": [
-    "kippa-utils", "micro-service-utils"
+    "kippa-utils",
+    "micro-service-utils"
   ],
   "author": "Jude Okafor Chukwuebuka <ebuka@kippa.africa>",
   "license": "MIT",
   "homepage": "https://github.com/Africave-Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Africave-Team/kippa-micro-service-utils.git"
+    "url": "git://github.com/Africave-Team/kippa-micro-service-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/Africave-Team/kippa-micro-service-utils"
+    "url": "git://github.com/Africave-Team/kippa-micro-service-utils"
   },
   "dependencies": {},
   "devDependencies": {
