@@ -4,8 +4,28 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  push:
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+      - 'LICENSE'
+      - '.editorconfig'
+    branches:
+      - main
+      - master
+  pull_request:
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+      - 'LICENSE'
+      - '.editorconfig'
+    branches:
+      - main
+      - master
+
+# on:
+#   release:
+#     types: [created]
 
 jobs:
   build:
